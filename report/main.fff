@@ -1,5 +1,113 @@
 \begin{figure}[H]
     \centering
+    \includegraphics[width=\linewidth]{figures/mean-excess-upper.png}
+    \caption{Mean Excess Plot for upper-tail exceedances in France and Germany.
+             The approximately linear region identifies the range of viable thresholds.}
+    \label{fig:mep_upper}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/gpd-shape-upper.png}
+    \caption{Estimated GPD shape parameter $\hat\xi$ as a function of the quantile
+             threshold for the upper tail. The selected threshold $q = 0.93$ lies in
+             a region of relative stability.}
+    \label{fig:shape_upper}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/gpd-scale-upper.png}
+    \caption{Estimated GPD scale parameter $\hat\beta$ as a function of the quantile
+             threshold for the upper tail.}
+    \label{fig:scale_upper}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/gpd-fit-upper.png}
+    \caption{Histogram of upper-tail exceedances and fitted GPD density for France
+             (left) and Germany (right) at quantile threshold $q = 0.93$.}
+    \label{fig:gpd_upper}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/qq-plot-upper.png}
+    \caption{QQ-plot of the upper-tail exceedances against the fitted GPD quantiles
+             for France (left) and Germany (right).}
+    \label{fig:qq_upper}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/mean-excess-lower.png}
+    \caption{Mean Deficit Plot for lower-tail exceedances in France and Germany.
+             The approximately linear region guides the threshold choice.}
+    \label{fig:mep_lower}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/gpd-shape-lower.png}
+    \caption{Estimated GPD shape parameter $\hat\xi$ as a function of the quantile
+             threshold for the lower tail.}
+    \label{fig:shape_lower}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/gpd-scale-lower.png}
+    \caption{Estimated GPD scale parameter $\hat\beta$ as a function of the quantile
+             threshold for the lower tail.}
+    \label{fig:scale_lower}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/gpd-fit-lower.png}
+    \caption{Histogram of lower-tail deficits and fitted GPD density for France
+             (left) and Germany (right) at quantile threshold $q = 0.025$.}
+    \label{fig:gpd_lower}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/qq-plot-lower.png}
+    \caption{QQ-plot of the lower-tail deficits against the fitted GPD quantiles
+             for France (left) and Germany (right).}
+    \label{fig:qq_lower}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/hill-upper.png}
+    \caption{Hill plots for the upper tail of French and German prices. The stable
+             plateau in the range $k \in [30, 150]$ provides the Hill estimate.}
+    \label{fig:hill_upper}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/hill-lower.png}
+    \caption{Hill plots for the lower tail (reflected series) of French and German prices.}
+    \label{fig:hill_lower}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
     \includegraphics[width=0.96\textwidth]{figures/copula_scatter.png}
     \caption{Left: scatter plot of de-seasonalized hourly price variations in France and Germany. Right: pseudo-observations \((\hat U_t, \hat V_t)\) used for copula estimation.}
     \label{fig:copula_scatter}
