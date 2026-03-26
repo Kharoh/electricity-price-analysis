@@ -38,7 +38,7 @@ These values indicate a positive but moderate dependence between the two markets
 
 We estimate three parametric copula families that were studied in the course: the Gaussian copula, the Gumbel copula, and the Clayton copula. The Gaussian copula is a natural benchmark but does not exhibit tail dependence. By contrast, the Gumbel copula captures upper-tail dependence, whereas the Clayton copula captures lower-tail dependence. This distinction is especially relevant for electricity prices, where the economic interpretation of very high prices and very low or negative prices is quite different.
 
-For each family, we consider two estimation strategies: inversion of Kendall's tau and maximum likelihood based on the pseudo-observations. We then compare the fitted models through their log-likelihood, AIC, BIC, and implied tail-dependence coefficients.
+For each family, we consider two estimation strategies: inversion of Kendall's tau and maximum likelihood based on the pseudo-observations. We then compare the fitted models through their log-likelihood, and implied tail-dependence coefficients.
 
 Table~\ref{tab:copula_full} reports the results on the full sample.
 
@@ -57,7 +57,7 @@ Clayton  & 0.2177 & 0.3062 & 0.5566 & 0.3938 & 215.6555 & 245.2915 & 0.1720 & 0.
 \end{tabular}
 \end{table}
 
-The ranking is unambiguous on the full sample: the Gumbel copula clearly dominates the Gaussian and Clayton alternatives. It yields the highest log-likelihood and the best information criteria, which indicates that the dependence between the two markets is better described by an asymmetric structure with upper-tail dependence than by a symmetric Gaussian benchmark or a lower-tail-dependent Clayton copula.
+The ranking is unambiguous on the full sample: the Gumbel copula clearly dominates the Gaussian and Clayton alternatives. It yields the highest log-likelihood, which indicates that the dependence between the two markets is better described by an asymmetric structure with upper-tail dependence than by a symmetric Gaussian benchmark or a lower-tail-dependent Clayton copula.
 
 This result is economically meaningful. It suggests that the strongest common dependence between the French and German markets does not occur primarily during jointly very low prices, but rather during jointly high price episodes. In other words, the two markets appear especially connected when upward stress affects both systems at the same time.
 
@@ -107,7 +107,7 @@ Figure~\ref{fig:copula_heatmap} shows the empirical copula heatmap, while Figure
     \label{fig:copula_contours}
 \end{figure}
 
-We also examine empirical tail concentration functions in order to compare the lower and upper corners of the unit square. The lower-tail concentration decreases slowly and then appears to converge to zero for very small values of \(q\), which is not consistent with a very strong lower-tail dependence. By contrast, the upper-tail concentration is more structured: on the full sample it remains clearly positive, while in the stressed regime it becomes more irregular and even increases at very small values of \(q\). Although the smallest-\(q\) region must be interpreted cautiously because of limited sample size, this pattern is coherent with the dominance of the Gumbel family.
+We also examine empirical tail concentration functions on Figure~\ref{fig:tail_concentration} in order to compare the lower and upper corners of the unit square. The lower-tail concentration decreases slowly and then appears to converge to zero for very small values of \(q\), which is not consistent with a very strong lower-tail dependence. By contrast, the upper-tail concentration is more structured: on the full sample it remains clearly positive, while in the stressed regime it becomes more irregular and even increases at very small values of \(q\). Although the smallest-\(q\) region must be interpreted cautiously because of limited sample size, this pattern is coherent with the dominance of the Gumbel family.
 
 \begin{figure}[H]
     \centering

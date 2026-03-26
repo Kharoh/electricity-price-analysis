@@ -1,8 +1,20 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Left: scatter plot of de-seasonalized hourly price variations in France and Germany. Right: pseudo-observations \((\hat U_t, \hat V_t)\) used for copula estimation.}}{10}{figure.caption.14}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Empirical copula heatmap based on the pseudo-observations.}}{11}{figure.caption.15}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Fitted copula contours for the Gaussian, Gumbel, and Clayton models.}}{12}{figure.caption.16}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Empirical lower-tail and upper-tail concentration functions across regimes.}}{13}{figure.caption.17}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Timeline of negative-price events in France and Germany over the full sample.}}{14}{figure.caption.18}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Estimated univariate Hawkes intensities for negative-price events in France and Germany.}}{15}{figure.caption.19}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Estimated excitation matrix for the bivariate Hawkes model on negative-price events.}}{16}{figure.caption.20}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Zoom on a tense week for negative-price events and fitted bivariate intensities.}}{17}{figure.caption.21}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Mean Excess Plot for upper-tail exceedances in France and Germany. The approximately linear region identifies the range of viable thresholds.}}{13}{figure.caption.28}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Estimated GPD shape parameter $\hat \xi $ as a function of the quantile threshold for the upper tail. The selected threshold $q = 0.93$ lies in a region of relative stability.}}{13}{figure.caption.29}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Estimated GPD scale parameter $\hat \beta $ as a function of the quantile threshold for the upper tail.}}{14}{figure.caption.30}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Histogram of upper-tail exceedances and fitted GPD density for France (left) and Germany (right) at quantile threshold $q = 0.93$.}}{14}{figure.caption.31}%
+\contentsline {figure}{\numberline {5}{\ignorespaces QQ-plot of the upper-tail exceedances against the fitted GPD quantiles for France (left) and Germany (right).}}{15}{figure.caption.32}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Mean Deficit Plot for lower-tail exceedances in France and Germany. The approximately linear region guides the threshold choice.}}{15}{figure.caption.33}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Estimated GPD shape parameter $\hat \xi $ as a function of the quantile threshold for the lower tail.}}{16}{figure.caption.34}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Estimated GPD scale parameter $\hat \beta $ as a function of the quantile threshold for the lower tail.}}{16}{figure.caption.35}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Histogram of lower-tail deficits and fitted GPD density for France (left) and Germany (right) at quantile threshold $q = 0.025$.}}{17}{figure.caption.36}%
+\contentsline {figure}{\numberline {10}{\ignorespaces QQ-plot of the lower-tail deficits against the fitted GPD quantiles for France (left) and Germany (right).}}{17}{figure.caption.37}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Hill plots for the upper tail of French and German prices. The stable plateau in the range $k \in [30, 150]$ provides the Hill estimate.}}{18}{figure.caption.38}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Hill plots for the lower tail (reflected series) of French and German prices.}}{18}{figure.caption.39}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Left: scatter plot of de-seasonalized hourly price variations in France and Germany. Right: pseudo-observations \((\hat U_t, \hat V_t)\) used for copula estimation.}}{18}{figure.caption.40}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Empirical copula heatmap based on the pseudo-observations.}}{19}{figure.caption.41}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Fitted copula contours for the Gaussian, Gumbel, and Clayton models.}}{19}{figure.caption.42}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Empirical lower-tail and upper-tail concentration functions across regimes.}}{20}{figure.caption.43}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Timeline of negative-price events in France and Germany over the full sample.}}{20}{figure.caption.44}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Estimated univariate Hawkes intensities for negative-price events in France and Germany.}}{20}{figure.caption.45}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Estimated excitation matrix for the bivariate Hawkes model on negative-price events.}}{21}{figure.caption.46}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Zoom on a tense week for negative-price events and fitted bivariate intensities.}}{21}{figure.caption.47}%

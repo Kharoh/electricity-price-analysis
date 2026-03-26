@@ -20,6 +20,7 @@
 \usepackage{fancyhdr}
 \usepackage{subcaption}
 \usepackage[nomarkers,notables]{endfloat}
+\renewcommand{\efloatseparator}{\mbox{}}
 
 \lstset{
   language=Python,
@@ -93,7 +94,7 @@ French and German Day-Ahead Electricity Prices in 2025}
     Graduate Student in Applied Mathematics \\
     École Polytechnique \\
     Palaiseau, France \\
-    \texttt{thais.roussel@polytechnique.edu} \\
+    \texttt{thais.roussel@polytechnique.org} \\
     \And
     Maxime Puech \\
     Graduate Student in Applied Mathematics \\
@@ -107,7 +108,7 @@ French and German Day-Ahead Electricity Prices in 2025}
 \pagestyle{main}
 
 \begin{abstract}
-This report studies hourly day-ahead electricity prices in France and Germany over the year 2025 using data from the ENTSO-E Transparency Platform. Our objective is to understand how market tensions appear, how they persist over time, and how they propagate across the two markets. To do so, we build a unified statistical analysis around a single dataset and a single research question: when the market becomes stressed, do French and German prices become more dependent, and do extreme episodes cluster in time?
+This report studies hourly day-ahead electricity prices in France and Germany over the year 2025 using data from the \href{https://transparency.entsoe.eu/fileLibrary/fileBrowserMode?appState=%7B%22path%22%3A%22%2FTP_export%2FEnergyPrices_12.1.D_r3%2F%22%7D}{ENTSO-E Transparency Platform}. Our objective is to understand how market tensions appear, how they persist over time, and how they propagate across the two markets. To do so, we build a unified statistical analysis around a single dataset and a single research question: when the market becomes stressed, do French and German prices become more dependent, and do extreme episodes cluster in time?
 
 We first clean and synchronize the hourly series, then study their temporal structure through standard linear time-series tools. We next analyze extreme price events using methods from extreme value theory in order to characterize rare positive spikes and negative prices, and to define meaningful thresholds for subsequent event-based modeling. We then investigate the cross-market dependence structure using copulas, comparing Gaussian, Gumbel, and Clayton specifications in both calm and stressed regimes. Finally, we model the temporal clustering of extreme events through univariate and bivariate Hawkes processes, which allow us to distinguish exogenous shocks from endogenous excitation and to quantify cross-market propagation.
 
@@ -144,7 +145,6 @@ The linear time-series analysis provides the first description of the marginal d
 \label{sec:extremes}
 \input{sections/4_extremes}
 
-Once the marginal behavior of the series has been studied, the next step is to examine their dependence structure. This motivates the copula approach, which separates the marginal distributions from the joint dependence pattern.
 
 % ==========================================
 % 5. COPULAS
@@ -213,7 +213,7 @@ All authors contributed to the interpretation of results, discussed the overall 
 % ==========================================
 % REFERENCES
 % ==========================================
-\bibliographystyle{plainnat}
-\bibliography{references.bib}
 
+\clearpage
+\processdelayedfloats
 \end{document}
