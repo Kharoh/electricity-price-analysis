@@ -1,5 +1,133 @@
 \begin{figure}[H]
     \centering
+    \includegraphics[width=0.58\textwidth]{ratio_fr.png}
+    \caption{Ratio std/mean of the expectancy function for the french prices process differentiated $n$ times.}
+    \label{fig:ratio_fr}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{ratio_de.png}
+    \caption{Ratio std/mean of the expectancy function for the german prices process differentiated $n$ times.}
+    \label{fig:ratio_de}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{cov_fr.png}
+    \caption{Ratio std/mean of the autocovariance function for the french prices process, with trajectories depending on the number of differentiations.}
+    \label{fig:cov_fr}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{cov_de.png}
+    \caption{Ratio std/mean of the autocovariance function for the german prices process, with trajectories depending on the number of differentiations.}
+    \label{fig:cov_de}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{ARMA.png}
+    \caption{Results for the ARMA function of the \code{statsmodels} module (french prices).}
+    \label{fig:arma_fr}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{ARMA2.png}
+    \caption{Results for the ARMA function of the \code{statsmodels} module (german prices).}
+    \label{fig:arma_de}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{aic_fr.png}
+    \caption{Results for the AIC function for french prices.}
+    \label{fig:aic_fr}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{aic_de.png}
+    \caption{Results for the AIC function for german prices.}
+    \label{fig:aic_de}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{ar_fr.png}
+    \caption{Results for the AR modelisation with the \code{statsmodels} module for french prices.}
+    \label{fig:ar_fr}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{ar_de.png}
+    \caption{Results for the AR modelisation with the \code{statsmodels} module for french prices.}
+    \label{fig:ar_de}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{garch11_fr.png}
+    \caption{GARCH(1,1) modelisation for french prices.}
+    \label{fig:garch11_fr}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{garch11_f_fr.png}
+    \caption{GARCH(1,1) forecast for french prices.}
+    \label{fig:garch11_f_fr}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{garch22_fr.png}
+    \caption{GARCH(2,2) modelisation for french prices.}
+    \label{fig:garch22_fr}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{garch22_f_fr.png}
+    \caption{GARCH(2,2) forecast for french prices.}
+    \label{fig:garch22_f_fr}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{garch1010_fr.png}
+    \caption{GARCH(10,10) modelisation for french prices.}
+    \label{fig:garch1010_fr}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.58\textwidth]{garch1010_f_fr.png}
+    \caption{GARCH(10,10) forecast for french prices.}
+    \label{fig:garch1010_f_fr}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[H]
+    \centering
     \includegraphics[width=\linewidth]{figures/mean-excess-upper.png}
     \caption{Mean Excess Plot for upper-tail exceedances in France and Germany.
              The approximately linear region identifies the range of viable thresholds.}
